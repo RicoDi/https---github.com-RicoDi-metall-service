@@ -1,0 +1,138 @@
+.search-button{
+     background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+padding-bottom:5px;
+}
+.search-fieldform {
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.articles_menu {
+    background-color: #008cdc;
+
+    padding: 2%;
+}
+.articles_menu h3{
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 18pt;
+}
+
+
+.articles_menu li {
+    display: inline-block;
+    padding: 1%;
+    background-color: white;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.social_butoon{
+   margin-top: 1%;
+margin-bottom: 1%; 
+}
+.review_form{
+    display:none;
+}
+.review_click{
+ font-size: 20px;
+font-weight: bold;
+text-decoration: underline;   
+}
+.border_block{
+border-bottom: 2px solid #008cdc;
+padding-bottom: 1%;
+}
+
+.answer-block{
+margin-left: 2%;
+border: 1px dotted #008cdc;
+padding: 1%;
+}
+
+.answer-block p{
+font-weight: bold;
+}
+
+
+.color-like {
+    font-style: italic;
+    color: #008cdc;
+}
+
+.rig_block{
+    float:right;
+}
+
+.rig_block:hover{
+  text-decoration:none;
+}
+
+.service_item {
+    padding: 20px;
+    border: 1px solid #0e77b2;
+    margin-left: 3%;
+    width: 47%;
+    margin-bottom: 25px;
+}
+
+/* .service_item img {
+  
+} */
+
+.service_item h3{
+    text-align: center;
+}
+.service_item a{
+word-wrap: break-word;
+}
+
+.commetts-form{
+        display:none;
+}
+
+.mobiles-wrapper {
+	font-size: 0px;
+	padding: 0px 20px 0px 20px;
+}
+.mobiles-wrapper a {
+
+	display: inline-block;
+	padding-right: 3%;
+}
+
+.mobiles-wrapper a:hover {text-decoration:none;}
+
+.mobiles-wrapper a:hover span{color:#3ca5f4;}
+.mobiles-wrapper a span {
+	font-size: 15px;
+	color: #000;
+	border-bottom: 1px dotted #47aaf5;
+}
+
+
+.mobiles-wrapper a::before {
+	content: '';
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	height: 44px;
+}
+
+.whatsapp-icon:before{background-image:url(../img/whatsapp.png);}
+.viber-icon:before{background-image:url(../img/viber.svg);}
+.telegram-icon:before{background-image:url(../img/telegram.svg);}

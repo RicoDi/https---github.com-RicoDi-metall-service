@@ -1,0 +1,31 @@
+@media print {
+      body {
+            background-color: #FFFFFF;
+            font-family: tahoma;
+            color: #000000;
+      }
+      #content {
+            background-color: #FFFFFF;
+            padding: 5px; 
+            font-size: 15px;
+            color: #000000;
+            width: 600px;
+      }
+      .m-header {
+            display: none;
+      }
+      .banner-in-head {
+            display: none;
+      }
+       .footer {
+            display: none;
+      }
+ 
+      .no-print {
+           display: none; 
+      }
+      
+      .kontakt-and-map{
+            display: none;  
+      }
+}

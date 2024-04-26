@@ -1,0 +1,218 @@
+@media screen and (max-width: 400px) {
+    @-ms-viewport {
+        width: device-width;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .Toastify__toast-container.rytrToastify {
+        width: 100vw;
+        padding: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    .Toastify__toast-container--top-left.rytrToastify,
+    .Toastify__toast-container--top-center.rytrToastify,
+    .Toastify__toast-container--top-right.rytrToastify {
+        top: 0;
+        transform: translateX(0);
+    }
+
+    .Toastify__toast-container--bottom-left.rytrToastify,
+    .Toastify__toast-container--bottom-center.rytrToastify,
+    .Toastify__toast-container--bottom-right.rytrToastify {
+        bottom: 0;
+        transform: translateX(0);
+    }
+
+    .Toastify__toast-container--rtl.rytrToastify {
+        right: 0;
+        left: initial;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .rytrToastify .Toastify__toast {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .region {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blgbenifits.bnffour li {
+        width: 42%;
+        font-size: 11px;
+    }
+
+    .blgbenifits.bnffour li:nth-child(odd) {
+        padding-left: 0;
+    }
+
+    .blgbenifits.bnffour li:nth-child(even) {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .ua-grid-divider>[class*='ua-width-medium-']:not(.ua-width-medium-1-1):nth-child(n+2) {
+        border-left: 1px solid #ddd;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ua-grid-width-medium-1-1>* {
+        width: 100%;
+    }
+
+    .ua-grid-width-medium-1-2>* {
+        width: 50%;
+    }
+
+    .ua-grid-width-medium-1-3>* {
+        width: 33.333%;
+    }
+
+    .ua-grid-width-medium-1-4>* {
+        width: 25%;
+    }
+
+    .ua-grid-width-medium-1-5>* {
+        width: 20%;
+    }
+
+    .ua-grid-width-medium-1-6>* {
+        width: 16.666%;
+    }
+
+    .ua-grid-width-medium-1-10>* {
+        width: 10%;
+    }
+}
+
+@media (min-width: 960px) {
+    .ua-grid-large {
+        margin-left: -20px;
+    }
+
+    .ua-grid-large>* {
+        padding-left: 20px;
+    }
+
+    .ua-grid-large+.ua-grid-large,
+    .ua-grid-large-margin,
+    .ua-grid-large>*>.ua-panel+.ua-panel {
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 960px) {
+    .ua-grid-divider>[class*='ua-width-large-']:not(.ua-width-large-1-1):nth-child(n+2) {
+        border-left: 1px solid #ddd;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .ua-grid-width-large-1-1>* {
+        width: 100%;
+    }
+
+    .ua-grid-width-large-1-2>* {
+        width: 50%;
+    }
+
+    .ua-grid-width-large-1-3>* {
+        width: 33.333%;
+    }
+
+    .ua-grid-width-large-1-4>* {
+        width: 25%;
+    }
+
+    .ua-grid-width-large-1-5>* {
+        width: 20%;
+    }
+
+    .ua-grid-width-large-1-6>* {
+        width: 16.666%;
+    }
+
+    .ua-grid-width-large-1-10>* {
+        width: 10%;
+    }
+}
+
+@media (min-width: 1220px) {
+    .ua-grid {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .ua-grid-large {
+        margin-left: -50px;
+    }
+
+    .ua-grid-large>* {
+        padding-left: 50px;
+    }
+
+    .ua-grid-large+.ua-grid-large,
+    .ua-grid-large-margin,
+    .ua-grid-large>*>.ua-panel+.ua-panel {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .ua-grid-divider:not(:empty) {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+    .ua-grid-divider>* {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .ua-grid-divider:empty {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .ua-grid-width-xlarge-1-1>* {
+        width: 100%;
+    }
+
+    .ua-grid-width-xlarge-1-2>* {
+        width: 50%;
+    }
+
+    .ua-grid-width-xlarge-1-3>* {
+        width: 33.333%;
+    }
+
+    .ua-grid-width-xlarge-1-4>* {
+        width: 25%;
+    }
+
+    .ua-grid-width-xlarge-1-5>* {
+        width: 20%;
+    }
+
+    .ua-grid-width-xlarge-1-6>* {
+        width: 16.666%;
+    }
+
+    .ua-grid-width-xlarge-1-10>* {
+        width: 10%;
+    }
+}
