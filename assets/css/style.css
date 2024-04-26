@@ -215,7 +215,7 @@ nav {
 
 .banner-in-head {
 	display: flex;
-	background-image: url("/public/assets/img/banner_0x0_6f7.webp");
+	background-image: url("/assets/img/banner_0x0_6f7.webp");
 	background-position: top center;
 	background-repeat: no-repeat;
 	height: 303px;
