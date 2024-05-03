@@ -1,6 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function() {
-    var adviceButton = document.getElementById('advice');
-    var closeButton = document.getElementById('closebut');
+    let adviceButton = document.getElementById('advice');
+    let closeButton = document.getElementById('closebut');
 
     if (adviceButton) {
         adviceButton.addEventListener('click', function () {
