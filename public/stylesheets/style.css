@@ -51,7 +51,7 @@ video {
 }
 
 .header-top {
-	height: 25px;
+	height: auto;
 	border: 1px solid #59c3ff;
 	-webkit-border-radius: 1px;
 	border-radius: 1px;
@@ -59,6 +59,7 @@ video {
 }
 
 .header-top-flex {
+	
 	display: flex;
 	align-content: space-around;
 	justify-content: space-around;
@@ -72,6 +73,9 @@ video {
 
 .header-top .uk-grid {
 	position: relative;
+}
+.header-bottom{
+	margin-top: 25px;
 }
 
 .header-bottom_grid {
@@ -111,13 +115,7 @@ video {
 	margin-right: auto;
 }
 
-/* .top-m-wrap{
-	margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-    width: 100%;
-} */
+
 /* menu style */
 :root {
 	--activeColor: #2ba6cb;
@@ -135,11 +133,13 @@ nav {
 }
 
 .top-m-wrap {
+	background-color: rgb(15, 12, 37);
 	display: flex;
 	justify-content: center;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	
 }
 
 .top-m-wrap a {
@@ -163,13 +163,16 @@ nav {
 	padding-bottom: 1.3em;
 	position: relative;
 }
+.top-m-wrap li{
+	list-style: none;
+}
 
-.top-m-wrap li:first-child a {
+.top-m-wrap > li:first-child a {
 	border-top-left-radius: 90px;
 	border-bottom-left-radius: 90px;
 }
 
-.top-m-wrap li:last-child a {
+.top-m-wrap > li:last-child a {
 	border-top-right-radius: 90px;
 	border-bottom-right-radius: 90px;
 }
@@ -215,7 +218,7 @@ nav {
 
 .banner-in-head {
 	display: flex;
-	background-image: url("https---github.com-RicoDi-metall-service/assets/css/assets/img/banner_0x0_6f7.webp");
+	background-image: url("../images/banner_0x0_6f7.webp");
 	background-position: top center;
 	background-repeat: no-repeat;
 	height: 303px;
@@ -779,7 +782,7 @@ footer {
 	color: #FFFFFF;
 }
 
-.footer-block {
+.footer-grid_container {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(4, 1fr);
@@ -901,7 +904,7 @@ body>div.jGrowl {
 }
 
 .advice-button:hover {
-	background: #059;
+	background: #2ba6cb;
 	color: #FFF;
 	text-decoration: none;
 }
