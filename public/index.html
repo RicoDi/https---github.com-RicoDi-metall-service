@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/media.css" media="screen and (max-width: 1200px)">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
 </head>
 
 <body>
@@ -73,8 +74,8 @@
                                 </ul>
                                 <button href="#call" class="advice-button" id="zakaz-zvonka">Замовити дзвінок</button>
                             </div>
-                            <div class="uk-panel">
-                                <form class="sisea-search-form" action="rezultatyi-poiska.html" method="get">
+                            <div class="search-form_block">
+                                <form class="search_form" action="rezultatyi-poiska.html" method="get">
                                     <input type="text" class="search-field-form" name="search" id="search"
                                         placeholder="nouck" value="">
                                     <button type="submit" class="search-button" aria-labelledby="search"></button>
@@ -84,20 +85,22 @@
                     </div>
                 </div>
             </div>
+
+
             <nav class="top-menu">
-                <a class="button-mob-menu" href="#topmenu"><!--Mobile button-->
+                <!--Mobile button-->
+                <a class="button-mob-menu" href="#topmenu">
                     <span class="menu-button">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </span>
-                    <span class="main">Головне меню</span>
                 </a>
                 <div class="uk-container-2 uk-container-center">
-                    <div id="topmenu" class="uk-offcanvas">
+                    <div class="uk-offcanvas">
                         <div class="uk-offcanvas-bar">
                             <div class="uk-panel">
-                                <ul class="top-m-wrap">
+                                <ul id="topmenu" class="top-m-wrap">
                                     <li class="first active"><a href="">Головна</a></li>
 
                                     <li>
@@ -117,7 +120,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="">Ціни на лом</a>
+                                        <a href="">Ціни</a>
                                         <ul>
                                             <li class="first"><a href="">Кольоровий лом</a></li>
                                             <li class="last"><a href="">Чорний лом</a></li>
@@ -154,11 +157,11 @@
                                         </a>
                                     </li>
                                 </ul>
-
                             </div>
                         </div>
                     </div>
                 </div>
+
             </nav>
 
         </header>
@@ -168,7 +171,7 @@
                 <div class="banner-text">
                     <p class="priem">Приймаємо, купляємо, вивозимо металобрухт!</p>
                     <p class="garantiya">Гарантуємо високі ціни! Без відстрочки платежу!</p>
-                    <button id="advice" class="advice-button">Отримати консультацію</button>
+                    <button id="advice" class="advice-button btn">Отримати консультацію</button>
                     <div id="advice-window" style="display:none">Замовити консультацію!
                         <div id="advice-window" style="display:none">
                             Замовити консультацію!
@@ -256,7 +259,7 @@
             </div>
             <!--MainBlock-->
             <div class="uk-container uk-container-center block-content">
-                <div class="uk-grid-main">
+                <div class="main_container">
 
                     <div class="uk-width-medium-3-4 uk-push-1-4 mb-20">
                         <div>
@@ -444,12 +447,10 @@
 
                         <div class="call-back-form-container">
                             <div class="call-back-form">
-                                <!-- padding: 24px 19px; margin-top: 25px; box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.26), 1px 1px 8px rgba(0, 0, 0, 0.26); -->
                                 <div class="zapitanya-h2">З'явилось запитання?
                                 </div>
                                 <p>Замовте безкоштовну консультацію!</p>
-                                <form id="call-back-form" name="konsultant" action="https://metall-service.kiev.uk"
-                                    class="call-back_form" method="post">
+                                <form id="call-back-form" name="consultationForm" class="call-back_form" method="post">
                                     <!-- <input type="text" name="workemail"> -->
                                     <div class="main-input">
                                         <div class="call-back-form_input">
@@ -506,20 +507,20 @@
                                 <div class="our-advanteges-textarea">
                                     <ul class="advanteges_list">
                                         <li class="advanteges-item"
-                                            style="background:url(./assets/img/gruzovk.png)no-repeat left top;">
+                                            style="background:url(./images/gruzovk.png)no-repeat left top;">
                                             Собственный автопарк Для вывоза металлолома предоставляем свой
                                             транспорт в виде газелей и ломовозов</li>
                                         <li class="advanteges-item"
-                                            style="background:url(./assets/img/info.png)no-repeat left top;">
+                                            style="background:url(./images/info.png)no-repeat left top;">
                                             Своевременно информируем клиента Для постоянных клиентов работает
                                             система оповещения, позволяющая вам всегда быть в курсе изменений
                                             цен на рынке лома.</li>
                                         <li class="advanteges-item"
-                                            style="background:url(./assets/img/calendar.png)no-repeat left top;">
+                                            style="background:url(./images/calendar.png)no-repeat left top;">
                                             Работаем ежедневно Чтобы вы могли сдать лом в любой удобный для вас
                                             день, мы работаем каждый день без выходных.</li>
                                         <li class="advanteges-item"
-                                            style="background:url(assets/./img/Handshake.jpg)no-repeat left top;">
+                                            style="background:url(./images/Handshake.jpg)no-repeat left top;">
                                             Гарантируем индивидуальный подход При обращении в нашу компанию за
                                             вами закрепляется специалист, который решит все ваши вопросы
                                             связанные со сдачей металлолома.</li>
@@ -606,7 +607,7 @@
                         </div>
                     </div>
                     <!--Sidebar-->
-                    <div class="uk-width-medium-1-4 uk-pull-3-4 mb-30">
+                    <section class="sidebar">
                         <div class="uk-sticky-plceholder">
                             <div class="uk-active">
                                 <div class="uk-panel block-sidebar">
@@ -690,7 +691,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </section>
                     <!--SedebarEnd-->
                 </div>
             </div>
