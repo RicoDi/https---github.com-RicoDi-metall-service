@@ -7,6 +7,7 @@
     <title>Metall-service</title>
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/media.css" media="screen and (max-width: 1200px)">
+    <link rel="stylesheet" href="./stylesheets/sidebar.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
 </head>
@@ -88,7 +89,7 @@
 
             <nav class="header-bottom_block menu-header">
                 <!--Mobile button-->
-                <a class="button-mob-menu" href="#topmenu">
+                <a id="mobile-menu_button" class="button-mob-menu" href="#topmenu" >
                     <span class="menu-button">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -259,7 +260,6 @@
             <!--MainBlock-->
             <div class="uk-container uk-container-center block-content">
                 <div class="main_container">
-
                     <div class="uk-width-medium-3-4 uk-push-1-4 mb-20">
                         <div>
                             <a href="#" title="Вивоз металлолому">
@@ -604,8 +604,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Sidebar-->
+                    </div>                    
+                    <!--Sidebar width>768px-->                    
                     <section class="sidebar">
                         <div class="uk-sticky-plceholder">
                             <div class="uk-active">
@@ -692,6 +692,7 @@
                         </div>
                     </section>
                     <!--SedebarEnd-->
+                    
                 </div>
             </div>
         </main>
@@ -776,40 +777,8 @@
                         </div>
                         <!-- /lc-block -->
                     </div>
-                    <div class="col-lg-2 offset-lg-1">
-                        <div class="lc-block mb-4">
-                            <div editable="rich">
-                                <h4>About us</h4>
-                            </div>
-                        </div>
-                        <!-- /lc-block -->
-                        <div class="lc-block small">
-                            <div editable="rich">
-                                <p>Story</p>
-                                <p>Work with us</p>
-                                <p>Blog</p>
-                                <p>News</p>
-                            </div>
-                        </div>
-                        <!-- /lc-block -->
-                    </div>
-                    <div class="col-lg-2 offset-lg-1">
-                        <div class="lc-block mb-4">
-                            <div editable="rich">
-                                <h4>Downloads</h4>
-                            </div>
-                        </div>
-                        <!-- /lc-block -->
-                        <div class="lc-block small">
-                            <div editable="rich">
-                                <p>Vertex 1.2</p>
-                                <p>Templates</p>
-                                <p>Sounds</p>
-                                <p>Gradients</p>
-                            </div>
-                        </div>
-                        <!-- /lc-block -->
-                    </div>
+                    
+                    
                 </div>
             </div>
             <div class="py-5 container">
@@ -874,6 +843,7 @@
         </footer>
         <script src="/js/jquery.min.js"></script>
         <script src="/js/jquery.inputmask.min.js"></script>
+        <script src="./javascripts/sidebar.js">    </script>
         <script src="./javascripts/call-back.js"></script>
         <script src="./javascripts/menu.js"> </script>
         <script src="./javascripts/popup-menu.js"></script>
