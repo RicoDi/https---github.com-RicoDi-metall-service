@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+const ejs = require('ejs');
+
 // Создание методов для вывода статических файлов, таких как css, js, images, fonts, etc.
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')))
@@ -19,6 +21,14 @@ app.get('/authorization', (req, res) => {
     res.sendFile(path.join(__dirname, './public/authorization.html'));
 });
 
-app.listen(3333, () => {
+app.listen(34567, () => {
     console.log('Application listening on port 3333!');
 });
+
+ejs.renderFile('views/pagehome.ejs', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log(data);
+    }
+  });

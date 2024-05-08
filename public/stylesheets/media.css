@@ -1,5 +1,4 @@
 @media screen and (width<481px) {
-    /* HEADER */
     .up-header_block {
 
         grid-area: 1 / 1 / 2 / 2;
@@ -57,7 +56,7 @@
 }
 @media screen and (width<768px) {
 
-    /* HEADER */
+
     .header-main_item-1{
         width:100%
     }
@@ -73,10 +72,10 @@
     .header-bottom_grid {
         grid-template: none;
     }
-
+/* 
    .sidebar{
     display: none;
-   }
+   } */
 
     .search-form_block .search_form {
         display: none;
@@ -113,32 +112,16 @@
         display: block;
     }
 
-    .advice-button{
-
-    }
+    
 }
 
-@media screen and(width>768px) {
-    /* .header-grid_block {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+@media screen and (width>768px) {
 
-    }
-    .up-header_block { 
-        grid-area: 1 / 1 / 2 / 7;
-    }
-    .header-main_block { 
-         
-        grid-area: 2 / 1 / 3 / 7;
-        }
-    .header-bottom_block { grid-area: 3 / 1 / 4 / 7; }
+           .openbtn {
+                visibility: hidden;
+                }
+            }
 
-.button-mob-menu{
-    display:none; */
-}
 @media screen and (768<width<1220px) {
     .header-grid_block{
         grid-template-columns: repeat(3, 33.33%);
@@ -170,24 +153,7 @@
 
 
 
-    /* .main_container {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-    }
-
-
-
-    .top-m-wrap {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    } */
-
+  
 
 
 
